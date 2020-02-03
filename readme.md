@@ -63,6 +63,9 @@ npm run beautify
 npm run test
 npm run test:unit
 npm run test:coverage
+
+#changelog
+npm run changelog
 ```
 ## Author
 
