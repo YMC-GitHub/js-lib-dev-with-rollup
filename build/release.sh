@@ -18,7 +18,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 
   # commit
   git add -A
-  git commit -m "[build] $VERSION"
+  git commit --no-verify -m "[build] $VERSION"
   npm version $VERSION --message "[release] $VERSION"
   git tag v$VERSION
   # publish
