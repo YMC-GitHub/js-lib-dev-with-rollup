@@ -43,6 +43,7 @@
     "cross-env": "^5.2.1",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
+    "eslint-config-yemiancheng": "git+https://github.com/YMC-GitHub/eslint-config.git#v1.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^3.0.1",
     "lint-staged": "^9.2.0",
