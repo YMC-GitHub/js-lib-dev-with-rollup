@@ -16,7 +16,8 @@
     "test:coverage": "nyc --reporter=html --reporter=text mocha --require babel-core/register test/*.js",
     "beautify": "prettier --write \"src/*.js\" \"test/**/*.js\"",
     "release": "bash build/release.sh",
-    "clean": "bash build/clean.sh"
+    "clean": "bash build/clean.sh",
+    "changelog": "node build/change-log.js"
   },
   "repository": {
     "type": "git",
